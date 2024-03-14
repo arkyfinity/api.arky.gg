@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shorturls",
+  "info": {
+    "singularName": "shorturl",
+    "pluralName": "shorturls",
+    "displayName": "Shorturl"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "originalurl": {
+      "type": "string"
+    },
+    "shorturl": {
+      "type": "string"
+    }
+  }
+}

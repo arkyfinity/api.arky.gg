@@ -1,0 +1,48 @@
+{
+  "name": "api.arky.gg",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi API for various arky.gg services",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4.20.5",
+    "@strapi/plugin-users-permissions": "4.20.5",
+    "@strapi/plugin-i18n": "4.20.5",
+    "@strapi/plugin-cloud": "4.20.5",
+    "@strapi/typescript-utils": "^4.20.5",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "strapi": {
+    "telemetryDisabled": true,
+    "uuid": "30a13f3c-3f1c-43bd-8e32-6b703453690a"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkyfinity/api.arky.gg/api.arky.gg.git"
+  },
+  "author": {
+    "name": "Arky",
+    "email": "hello@arky.gg",
+    "url": "https://arky.gg"
+  },
+  "bugs": {
+    "url": "https://github.com/arkyfinity/api.arky.gg/issues"
+  }
+}
