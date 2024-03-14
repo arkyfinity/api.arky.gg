@@ -794,14 +794,15 @@ export interface ApiBuildBuild extends Schema.CollectionType {
     singularName: 'build';
     pluralName: 'builds';
     displayName: 'Build';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    name: Attribute.String;
-    link: Attribute.String;
     elitespec: Attribute.String;
+    link: Attribute.String;
+    name: Attribute.String;
     shorturl: Attribute.String;
     tag: Attribute.String;
     createdAt: Attribute.DateTime;
